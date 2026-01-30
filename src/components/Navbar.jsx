@@ -48,7 +48,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className={`navbar bg-base-300 fixed py-5 z-50 shadow-sm transition-all duration-300 ${!isAtTop ? 'bg-opacity-95 backdrop-blur-sm' : ''}`}>
+    <div className={`w-screen navbar bg-base-300 fixed py-5 z-50 shadow-sm transition-all duration-300 ${!isAtTop ? 'bg-opacity-95 backdrop-blur-sm' : ''}`}>
       <div className="navbar-start">
         {/* Dropdown Menu <1080 */}
         <div className="dropdown">

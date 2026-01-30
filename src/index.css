@@ -4,7 +4,33 @@
 
 html{
     scroll-behavior: smooth;
+
 }
+
+/* body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+  
+} */
+
+/* *{  
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+
+
+} */
+
+/* .containet{
+  width: 100%;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}  */
+
+/* untuk ke mobile  */
 
 
 @keyframes marquee {
@@ -22,3 +48,5 @@ html{
     animation: marquee 20s linear infinite;
     -webkit-animation: marquee 20s linear infinite;
 }
+
+

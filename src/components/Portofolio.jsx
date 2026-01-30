@@ -5,11 +5,11 @@ export default function Portofolio() {
 
     <section id='portofolio' className='bg-base-200 min-h-screen pt-5'>
 
-    <div className="container mx-auto px-4 pb-30 ">
+    <div className="container mx-auto px-4 pb-30 w-screen py-20 md:px-8 lg:px-16 ">
         
         <h1 className="text-5xl font-bold text-center mt-15 mb-15  text-bold">Portofolio</h1>
         <p className="text-center">Here are some of my projects</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 justify-center flex-wrap">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 justify-center w-full max-w-7xl mx-auto">
 {/* CARD 1 */}
 
         <div className="card bg-base-100 ">
