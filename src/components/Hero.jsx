@@ -26,7 +26,8 @@ export default function Hero() {
       <h1 className="text-5xl font-bold text-emerald-500 ">Muhammad Hafizh <br/>Wahyu Nugroho</h1>
       <h3 className='font-bold text-3xl'>Front-end Developer</h3>
       <p className="py-6 text-lg md:text-xl lg:text-2xl text-gray-500 mb-10 max-w-3xl mx-auto">
-       Creating digital experiences modern technology.
+        Creating digital experiences modern technology.
+          
       </p>
       
       <div className='flex flex-col sm:flex-row justify-center gap-4'>

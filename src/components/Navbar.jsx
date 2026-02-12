@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
+import Swal from 'sweetalert2';
+
 
 const Navbar = () => {
   const [isAtTop, setIsAtTop] = useState(true);
+  // const Swal = require('sweetalert2');
 
   // Cek posisi scroll untuk efek visual (opsional)
   useEffect(() => {
@@ -78,7 +81,25 @@ const Navbar = () => {
       <div className="navbar-end">
         <label htmlFor="search-input" className="label"></label>
         <input type="search" id="search-input" className="input input-bordered w-24 md:w-auto" placeholder="Search..." />
-        <button className="btn btn-ghost btn-circle">
+        <button 
+        className="btn btn-ghost btn-circle"
+        onClick={() => {
+         Swal.fire({
+        title: '🔔 Coming Soon!',
+        text: 'Fitur notifikasi sedang dalam pengembangan.',
+        icon: 'info',
+        confirmButtonText: 'OK',
+        footer: '<a href="mailto:muhammadhafizh192168@gmail.com" style="color: #10b981;">📧 Hubungi via Email</a>',
+        showDenyButton: true,
+        denyButtonText: '📱 WhatsApp',
+        confirmButtonColor: '#10b981',
+        }).then((result) => {
+        if (result.isDenied) {
+          window.open('https://wa.me/6285771025150', '_blank');
+        }
+      });
+    }}
+        >
           <div className="indicator">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /> 
