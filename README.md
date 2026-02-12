@@ -13,3 +13,7 @@ git remote add origin https://github.com/hafizh01/portoDaisyApp.git
 git branch -M main
 git push -u origin main
 
+pake cara ini efektif 
+git add .
+git commit -m "Update kodingan fitur login dan upload foto"
+git push origin main
