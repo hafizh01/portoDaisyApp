@@ -8,6 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+porto-hafizh.vercel.app
+
 jangan Lupa Di PUSH 
 git remote add origin https://github.com/hafizh01/portoDaisyApp.git
 
@@ -15,3 +17,7 @@ git add .
 git branch -M main
 git push -u origin main
 
+pake cara ini efektif 
+git add .
+git commit -m "Update kodingan fitur login dan upload foto"
+git push origin main
