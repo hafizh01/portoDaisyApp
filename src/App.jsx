@@ -11,7 +11,11 @@ const App = () => {
 
   
   return (
-  <>
+
+    // kenapa di tambahin Main className karena untuk memberikan padding top 
+    // agar tidak tertutup oleh navbar yang fixed, sehingga konten utama tetap 
+    // terlihat dengan baik saat di scroll.
+  <main className='pt-auto'>
 
   {/* ini digunakan untuk routing dari beberapa page  */}
     {/* <Routes>
@@ -29,7 +33,7 @@ const App = () => {
     <SkillsSlider />
     <Contact />
 
-  </>
+  </main>
   )
 }
 

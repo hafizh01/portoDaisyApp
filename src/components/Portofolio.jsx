@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 export default function Portofolio() {
@@ -14,17 +15,26 @@ export default function Portofolio() {
 
         <div className="card bg-base-100 ">
           <figure className='px-4 pt-4x'>
-            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
-
-            alt="Shoes" 
-            className='rounded-x1 h-48 w-full object-cover'
+            <img 
+            // src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+            src="/assets/images/p1.png"
+            alt="Project 1" 
+            className='rounded-xl h-48 w-full object-cover'
             />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title">E-commerce Website</h2>
-            <p className='text-base leading-8'>Full-stack e-commerce dengan React dan Node.js</p>
+            <h2 className="card-title">Vibe App</h2>
+            <p className='text-base leading-8'>Real-time Chat Application
+                A modern chat application that only send messages
+                <br/>technologies: React, tailwind, firebase, vercel
+                </p>
+            
             <div className="justify-end card-actions mt-4">
-            <button className="btn btn-primary">Live Demo</button>
+            <button className="btn btn-primary"
+              onClick={()=>{
+                window.open(`https://vibe-app-3gc4.vercel.app`,'_blank' )
+              }}
+            >Live Demo</button>
             </div>
             </div>
         </div>

@@ -10,6 +10,8 @@ Currently, two official plugins are available:
 
 jangan Lupa Di PUSH 
 git remote add origin https://github.com/hafizh01/portoDaisyApp.git
+
+git add .
 git branch -M main
 git push -u origin main
 

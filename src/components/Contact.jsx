@@ -358,7 +358,6 @@ export default function Contact() {
 
 
 {/* contact info */}
-             
 
 
             </form>
