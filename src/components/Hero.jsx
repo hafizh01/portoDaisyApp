@@ -1,5 +1,5 @@
 import HeroImg from '/assets/images/hero1.png'
-import cvFile from '/assets/CVHafizh.pdf'
+import cvFile from '/assets/HafizhCV.pdf'
 
 export default function Hero() {
 
@@ -35,9 +35,9 @@ export default function Hero() {
       
       <a 
       href={cvFile}      
-      download="CVHafizh.pdf"
+      download="HafizhCV.pdf"
       >
-      <button href={cvFile} download="CVHafizh.pdf" className="btn btn-outline shadow-3xl px-8 py-3 border-2 transition-colors duration-300">Download CV</button>
+      <button href={cvFile} download="HafizhCV.pdf" className="btn btn-outline shadow-3xl px-8 py-3 border-2 transition-colors duration-300">Download CV</button>
       </a>
       </div>
 
